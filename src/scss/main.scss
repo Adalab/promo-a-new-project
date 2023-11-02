@@ -1,0 +1,29 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
+.title {
+  color: darkcyan;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+}
+
+.btn {
+  border: solid 2px red;
+  background-color: darkred;
+  color: white;
+}
+
+.btn-green {
+  border: solid 2px green;
+  background-color: darkolivegreen;
+  color: white;
+}
